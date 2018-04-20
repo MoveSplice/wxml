@@ -1,0 +1,4 @@
+ <view style='height:2000px;'>
+        <div class="us">{{ msg }}</div>
+        <button bindtap="clickMea">点击我</button>
+ </view>

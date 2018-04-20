@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/center/center",
+    "pages/OfficialWebsite/OfficialWebsite",
+    "pages/contact/contact"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "永琪币赛马项目",
+    "backgroundColor": "#000",
+    "navigationBarTextStyle": "#000"
+  },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "images/hui.png",
+        "selectedIconPath": "images/hui.png",
+        "text": "联系我们"
+      },
+      {
+        "pagePath": "pages/OfficialWebsite/OfficialWebsite",
+        "iconPath": "images/xvb.png",
+        "selectedIconPath": "images/xvb.png",
+        "text": "官网"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "images/shcu.png",
+        "selectedIconPath": "images/shcu.png",
+        "text": "搜索"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

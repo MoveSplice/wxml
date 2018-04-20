@@ -1,0 +1,5 @@
+/* pages/indx/indx.wxss */
+.image{
+  width: 100%;
+  display: block;
+}
